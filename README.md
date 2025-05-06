@@ -1,10 +1,7 @@
 # rtlinearformer
 RTLinearFormer: Semantic segmentation with lightweight linear attentions
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pidnet-a-real-time-semantic-segmentation/real-time-semantic-segmentation-on-camvid)](https://paperswithcode.com/sota/real-time-semantic-segmentation-on-camvid?p=pidnet-a-real-time-semantic-segmentation) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pidnet-a-real-time-semantic-segmentation/real-time-semantic-segmentation-on-cityscapes)](https://paperswithcode.com/sota/real-time-semantic-segmentation-on-cityscapes?p=pidnet-a-real-time-semantic-segmentation)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pidnet-a-real-time-semantic-segmentation/real-time-semantic-segmentation-on-cityscapes-1)](https://paperswithcode.com/sota/real-time-semantic-segmentation-on-cityscapes-1?p=pidnet-a-real-time-semantic-segmentation) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-This is the official repository for our recent work: PIDNet ([PDF](https://arxiv.org/pdf/2206.02066)）
+This is the official repository for our recent work.
 
 ## Highlights
 <p align="center">
