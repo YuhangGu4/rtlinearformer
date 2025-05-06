@@ -3,45 +3,21 @@ RTLinearFormer: Semantic segmentation with lightweight linear attentions
 
 This is the official repository for our recent work.
 
-## Highlights
-<p align="center">
-  <img src="figs/cityscapes_score.jpg" alt="overview-of-our-method" width="500"/></br>
-  <span align="center">Comparison of inference speed and accuracy for real-time models on test set of Cityscapes.</span> 
-</p>
-
-* **Towards Real-time Applications**: PIDNet could be directly used for the real-time applications, such as autonomous vehicle and medical imaging.
-* **A Novel Three-branch Network**: Addtional boundary branch is introduced to two-branch network to mimic the PID controller architecture and remedy the overshoot issue of previous models.
-* **More Accurate and Faster**: PIDNet-S presents 78.6% mIOU with speed of 93.2 FPS on Cityscapes test set and 80.1% mIOU with speed of 153.7 FPS on CamVid test set. Also, PIDNet-L becomes the most accurate one (80.6% mIOU) among all the real-time networks for Cityscapes.
-
-## Overview
-<p align="center">
-  <img src="figs/pidnet.jpg" alt="overview-of-our-method" width="800"/></br>
-  <span align="center">An overview of the basic architecture of our proposed Proportional-Integral-Derivative Network (PIDNet). </span> 
-</p>
-P, I and D branches are responsiable for detail preservation, context embedding and boundary detection, respectively.
-
-### Detailed Implementation
-<p align="center">
-  <img src="figs/pidnet_table.jpg" alt="overview-of-our-method" width="500"/></br>
-  <span align="center">Instantiation of the PIDNet for semantic segmentation. </span> 
-</p>
-For operation, "OP, N, C" means operation OP with stride of N and the No. output channel is C; Output: output size given input size of 1024; mxRB: m residual basic blocks; 2xRBB: 2 residual bottleneck blocks; OP<sub>1</sub>\OP<sub>2</sub>: OP<sub>1</sub> is used for PIDNet-L while OP<sub>1</sub> is applied in PIDNet-M and PIDNet-S. (m,n,C) are scheduled to be (2,3,32), (2,3,64) and (3,4,64) for PIDNet-S, PIDNet-M and PIDNet-L, respectively.
-
 ## Models
 For simple reproduction, we provide the ImageNet pretrained models here.
 
-| Model (ImageNet) | PIDNet-S | PIDNet-M | PIDNet-L |
-|:-:|
-| Link | [download](https://drive.google.com/file/d/1hIBp_8maRr60-B3PF0NVtaA6TYBvO4y-/view?usp=sharing) | [download](https://drive.google.com/file/d/1gB9RxYVbdwi9eO5lbT073q-vRoncpYT1/view?usp=sharing) | [download](https://drive.google.com/file/d/1Eg6BwEsnu3AkKLO8lrKsoZ8AOEb2KZHY/view?usp=sharing) |
+| Model (ImageNet) | RTLinearFormer |
+|:-:|:-:|
+| Link | [download](https://drive.google.com/file/d/1hIBp_8maRr60-B3PF0NVtaA6TYBvO4y-/view?usp=sharing) |
 
 Also, the finetuned models on Cityscapes and Camvid are available for direct application in road scene parsing.
 
 | Model (Cityscapes) | Val (% mIOU) | FPS |
-|:-:|
+|:-:|:-:|:-:|
 | RTLinearFormer | [78.41] | 66.7 |
 
 | Model (CamVid) | Test (% mIOU)| FPS |
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 | RTLinearFormer | [77.4] | 143.2 |
 
 ## Prerequisites
