@@ -8,7 +8,7 @@ For simple reproduction, we provide the ImageNet pretrained models here.
 
 | Model (ImageNet) | RTLinearFormer |
 |:-:|:-:|
-| Link | [download](https://drive.google.com/file/d/1wmwmelcnB2O4xh8pi7UdPff4VfhkGaza/view?usp=drive_link) |
+| Link | [download](https://drive.google.com/file/d/1bq9y0IcF9NDgYXoPWfKDs8LQkqTvG7Ln/view?usp=drive_link) |
 
 Also, the finetuned models on Cityscapes and Camvid are available for direct application in road scene parsing.
 
