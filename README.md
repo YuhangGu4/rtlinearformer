@@ -8,17 +8,17 @@ For simple reproduction, we provide the ImageNet pretrained models here.
 
 | Model (ImageNet) | RTLinearFormer |
 |:-:|:-:|
-| Link | [download](https://drive.google.com/file/d/1hIBp_8maRr60-B3PF0NVtaA6TYBvO4y-/view?usp=sharing) |
+| Link | [download](https://drive.google.com/file/d/1wmwmelcnB2O4xh8pi7UdPff4VfhkGaza/view?usp=drive_link) |
 
 Also, the finetuned models on Cityscapes and Camvid are available for direct application in road scene parsing.
 
 | Model (Cityscapes) | Val (% mIOU) | FPS |
 |:-:|:-:|:-:|
-| RTLinearFormer | [78.41] | 66.7 |
+| RTLinearFormer | 78.41 | 66.7 |
 
 | Model (CamVid) | Test (% mIOU)| FPS |
 |:-:|:-:|:-:|
-| RTLinearFormer | [77.4] | 143.2 |
+| RTLinearFormer | 77.4 | 143.2 |
 
 ## Prerequisites
 This implementation is based on [PIDNet](https://github.com/XuJiacong/PIDNet). Please refer to their repository for installation and dataset preparation. The inference speed is tested on single RTX 3090 using the method introduced by [SwiftNet](https://arxiv.org/pdf/1903.08469.pdf). No third-party acceleration lib is used, so you can try [TensorRT](https://github.com/NVIDIA/TensorRT) or other approaches for faster speed.
