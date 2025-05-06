@@ -31,13 +31,13 @@ For operation, "OP, N, C" means operation OP with stride of N and the No. output
 For simple reproduction, we provide the ImageNet pretrained models here.
 
 | Model (ImageNet) | PIDNet-S | PIDNet-M | PIDNet-L |
-|:-:|:-:|:-:|:-:|
+|:-:|
 | Link | [download](https://drive.google.com/file/d/1hIBp_8maRr60-B3PF0NVtaA6TYBvO4y-/view?usp=sharing) | [download](https://drive.google.com/file/d/1gB9RxYVbdwi9eO5lbT073q-vRoncpYT1/view?usp=sharing) | [download](https://drive.google.com/file/d/1Eg6BwEsnu3AkKLO8lrKsoZ8AOEb2KZHY/view?usp=sharing) |
 
 Also, the finetuned models on Cityscapes and Camvid are available for direct application in road scene parsing.
 
 | Model (Cityscapes) | Val (% mIOU) | FPS |
-|:-:|:-:|:-:|:-:|
+|:-:|
 | RTLinearFormer | [78.41] | 66.7 |
 
 | Model (CamVid) | Test (% mIOU)| FPS |
